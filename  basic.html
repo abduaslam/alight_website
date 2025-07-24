@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="abduaslam">
+    <meta name="description" content="A basic HTML document">
+
+<meta name="keywords" content="HTML, basic, example">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>introduction to Html</title>
+    <style>
+    table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+h1 {
+    color: rgb(153, 6, 38);
+    font-style: italic;
+}
+</style>
+
+</head>
+<body>
+    <!--  -->
+     <h1 style="border: 1px solid rgb(34, 214, 49);">introduction to HTML</h1>
+     <p>Alight coding school is a project that helps student 
+        refugees learn to code. <br>This program started in 2019 <hr>
+    more information about the program can be found on our website.</p>
+    <h1>Text formatting</h1>
+    <table style="width: fit-content;border-color: ;">
+        <tr>
+            <th>tag</th>
+            <th>description</th>
+            <th>examples</th>
+        </tr>
+        <tr>
+            <td>b</td>
+            <td>bold text</td>
+            <td><b>this is bold text</b></td>
+        </tr>
+        <tr>
+            <td>i</td>
+            <td>italic text</td>
+            <td><i>this is italic text</i></td>
+
+        </tr>
+        <tr>
+            <td>u</td>
+            <td>underlined text</td>
+            <td><u>this is underlined text</u></td>
+        </tr>
+        <tr>
+            <td>strong</td>
+            <td>strong text</td>
+            <td><strong>this is strong text</strong></td>
+        </tr>
+        <tr>
+            <td>mark</td>
+            <td>highlighted text</td>
+            <td><mark>this is highlighted text</mark></td>
+        </tr>
+        <tr>
+            <td>sub</td>
+            <td>subscript text</td>
+            <td>H<sub>2</sub>O</td>
+        </tr>
+        <tr>
+            <td>sup</td>
+            <td>superscript text</td>
+            <td>8<sup>2</sup> = 64</td>
+        </tr>
+
+        <tr>
+            <td>small</td>
+            <td>small text</td>
+            <td><small>this is small text</small></td>
+        </tr>
+        <tr>
+            <td>abbr</td>
+            <td>abbreviation text</td>
+            <td><abbr title="HyperText Markup Language">HTML</abbr></td>
+        </tr>
+      Pasted image.png
+            <td>img</td>
+            <td>defines an image</td>
+            <td><img src="image.jpg" alt="description of image" width="100" height="100"></td>
+        </tr>
+
+    </table>
+   
+    <P>here we will learn <strong>about text </strong> formatting in HTML.</P>
+    <p>HTML provides several <strong>tags</strong> for formatting text, <em>including headings, </em>
+        paragraphs, bold, italic, and more. we are going to explore  marke tag <mark> in HTML</mark>  <br>
+    
+    the formula of water is H <sub>2</sub>O . THE squer of 8 mathmatical notation is 8<sup>2</sup> = 64. <br> .
+    </p>
+    <p>this <small> mango is</small> small compared to this avacado</p>
+    <P>this abbreviation <abbr title="HyperText Markup Language">HTML</abbr>  <strong>stands for HyperText Markup Language.</strong>
+    </P>
+    <h1>add links in a webpages</h1>
+    <p>Click <a href="/aboutus.html">here</a> to learn more about <br> <br> <br>
+    external links. <a href="https://www.wearealight.org/rwanda" target="_blank">Alight visit</a></p>
+    <p><a href="/services.html">our services</a></p>
+    <h1>add images to our webpages</h1><br>
+    <p>we can add images to our webpages using the img tag. <br> <br>
+        <img src="./Pasted image.png" alt="vscode screenshot" width="500" height="300">
+        
+
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCA
+        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" alt="my">
+   <a href="https://www.w3schools.com "> <img src="./Pasted image.png" alt=""></a>     
+
+  
+<hr>
+<!-- if images in the source are not found, the browser will use the img tag as a fallback. -->
+ <!-- if images in the source elt in not displayed, add imag tag as alterntive -->
+<picture>
+ <source  media="(min-width: 650px)" srcset="./pages/download.jpeg">
+<img src="./pages/download.jpeg" alt="">
+
+</picture>
+<h1> example of a table</h1>
+
+<table style=" border:2px;border-color: blueviolet;">
+<th>
+<tr>
+    <th>No</th>
+    <th>NAME</th>
+        <th>AGE</th>
+</tr>
+
+</th>
+<tbody>
+<tr>
+<td>1</td>
+<td>ahmad</td>
+<td>21</td>
+</tr>
+<tr>
+    <td>2</td>
+    <td>hanadi</td>
+    <td>19</td>
+</tr>
+<tr>
+    <td>3</td>
+    <td>billy</td>
+    <td>25</td>
+</tr>
+
+
+</tbody>
+
+</table>
+
+<p>
+    <h1> form html </h1>
+    <form>
+
+<label for="name">Name:</label>
+
+    <input type="text"/> 
+    <br> <br>
+<label for="">age:</label> 
+     <input type="number"> <br><br>
+<label for="">gender:</label> <br>
+     <input type="radio" value="female"name="gender"> female <br>
+     <input type="radio" value="male" name="gender"> male <br>
+<label for="">shift:</label> <br>
+ <select>
+    <option > ----select---</option>
+    <option value="morning">Morning</option>
+    <option value="evening">Evening </option>
+</label>
+ </select> <br> <br>
+ <label for="">phone number:</label> <br>
+ <input type="tel"><br><br>
+ <label for=""> skills:</label> <br>
+ <input type="checkbox" value="HTML"> html 
+ <br> 
+ <input type="checkbox" value="CSS"> css
+ <br> <br>
+ <label for="">Email:</label> <br>
+ <input type="email"><br><br>
+ <label for="">password:</label> <br>
+ <input type="password"><br><br>
+ <label for="">submit</label>   
+ <input type="submit">
+    </form>
+</p>
+
+
+
+</body>
+</html>
